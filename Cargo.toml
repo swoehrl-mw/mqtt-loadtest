@@ -1,0 +1,12 @@
+[package]
+name = "simulator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+argh = "0.1.9"
+tokio = { version = "1.22.0", features = ["rt-multi-thread", "macros"] }
+rumqttc = "0.18.0"
+lazy_static = "1.4.0"
+
+
